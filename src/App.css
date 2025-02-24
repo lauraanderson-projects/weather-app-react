@@ -1,38 +1,70 @@
-.App {
+body {
+  background: linear-gradient(to top, #09203f 0%, #537895 100%) fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: black;
+}
+header {
+  padding-bottom: 25px;
+}
+
+.weather-main {
+  background-color: white;
+  max-width: 650px;
+  margin: 60px auto;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.current-details strong {
+  color: #537895;
+  font-weight: 800;
+  line-height: 1.8;
+}
+
+.current-weather-icon {
+  font-size: 40px;
+  width: 100px;
+}
+
+.current-weather-temp {
+  font-size: 80px;
+  color: black;
+  font-weight: 900;
+}
+.current-weather-degree {
+  font-size: 25px;
+  color: black;
+  position: relative;
+  top: -40px;
+}
+.weeklyTemp {
+  padding: 0px 0px;
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+  font-weight: 900;
   text-align: center;
+  color: #537895;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 40px;
+  display: block;
+  margin: 0 auto;
+  width: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-forecast-temperature {
+  font-size: 14px;
+  text-align: center;
+  color: #537895;
+  padding: 0 10px;
 }

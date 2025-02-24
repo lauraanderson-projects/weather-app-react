@@ -1,0 +1,16 @@
+footer {
+  color: rgb(146, 146, 146);
+  padding: 40px 0px 0px 0px;
+  font-size: 13px;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(146, 146, 146);
+  text-decoration: none;
+  font-weight: 800;
+}
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
