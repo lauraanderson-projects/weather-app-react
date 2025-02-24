@@ -12,9 +12,9 @@ export default function App() {
 
   return (
     <div className="App">
-      <header>
-        <form>
-          <div className="container">
+      <div className="container">
+        <header>
+          <form>
             <div className="row">
               <div className="col-sm-10 text-center pl-0 pr-2 mt-2">
                 <input
@@ -30,16 +30,16 @@ export default function App() {
                 </button>
               </div>
             </div>
-          </div>
-        </form>
-      </header>
-      <Temperatures
-        current={weatherData.current}
-        city={weatherData.city}
-        date={weatherData.date}
-        description={weatherData.description}
-        img={weatherData.img}
-      />
+          </form>
+        </header>
+        <Temperatures
+          current={weatherData.current}
+          city={weatherData.city}
+          date={weatherData.date}
+          description={weatherData.description}
+          img={weatherData.img}
+        />
+      </div>
     </div>
   );
 }
