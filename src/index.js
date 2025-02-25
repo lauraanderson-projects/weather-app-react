@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div>
-      <div class="weather-main">
+      <div className="weather-main">
         <App />
         <Footer />
       </div>
