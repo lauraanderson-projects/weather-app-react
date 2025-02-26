@@ -1,0 +1,21 @@
+.WeatherForecast {
+  text-align: center;
+  color: #537895;
+}
+
+.WeatherForecast-date {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.WeatherForecast-icon {
+  font-size: 40px;
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.WeatherForecast-temperature {
+  font-size: 14px;
+  padding: 0 10px;
+}
