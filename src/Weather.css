@@ -9,32 +9,23 @@
   margin-bottom: 25px;
 }
 
-.weather-main {
-  background-color: white;
-  max-width: 650px;
-  margin: 60px auto;
-  padding: 40px 40px;
-  border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-}
-
-.current-details strong {
+.Weather .current-details strong {
   color: #537895;
   font-weight: 800;
   line-height: 1.8;
 }
 
-.current-weather-icon {
+.Weather .current-weather-icon {
   font-size: 40px;
   width: 100px;
 }
 
-.current-weather-temp {
+.Weather .current-weather-temp {
   font-size: 80px;
   color: black;
   font-weight: 900;
 }
-.current-weather-degree {
+.Weather .current-weather-degree {
   font-size: 20px;
   color: black;
   position: relative;

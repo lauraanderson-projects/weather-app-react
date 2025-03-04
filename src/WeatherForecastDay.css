@@ -1,0 +1,29 @@
+.WeatherForecastDay .WeatherForecast-date {
+  text-align: center;
+  color: #537895;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.WeatherForecastDay .WeatherForecast-temperature {
+  font-size: 14px;
+  color: #537895;
+  text-align: center;
+}
+
+.WeatherForecastDay .maxTemperature {
+  padding-right: 10px;
+}
+
+@media (max-width: 750px) {
+  .WeatherForecastDay .WeatherForecast-date {
+    font-size: 14px;
+  }
+  .WeatherForecastDay .WeatherForecast-temperature {
+    font-size: 14px;
+    padding: 0 5px;
+  }
+  .WeatherForecastDay .maxTemperature {
+    padding-right: 0px;
+  }
+}
